@@ -25,10 +25,10 @@ class Escuela(BaseModel):
     Nombre_de_localidad: str
     Domicilio: str
     Numero_exterior: int
-    Entre_la_calle: str
-    Y_la_calle: str
-    Calle_posterior: str
-    Colonia: int
+    Entre_la_calle: Optional[str]
+    Y_la_calle: Optional[str]
+    Calle_posterior: Optional[str]
+    Colonia: Optional[int]
     Nombre_de_la_colonia: str
     Codigo_postal: int
     Clave_lada: Optional[int]
